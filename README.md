@@ -20,12 +20,19 @@ If You want more You can pay me for my hours :)
 ## Build & development
 
 Simple as hell:
-
+```bash
+./build.sh
+```
+or:
 ```bash
 gcc -pthread kstate.c -o kstate
 ```
 
 Run:
+```bash
+./run.sh
+```
+or:
 ```bash
  sudo ./kstate simple
 ```
